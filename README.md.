@@ -1,0 +1,88 @@
+# 🗃️ Sistema de Controle de Estoque – Java Desktop
+
+## 📄 Descrição do Projeto
+
+Este projeto consiste em um *sistema de controle de estoque*, desenvolvido em Java com interface desktop. Ele permite que usuários cadastrem, consultem, editem e excluam produtos de forma simples e eficiente. 
+
+A aplicação utiliza banco de dados *SQLite* para garantir a persistência das informações. O objetivo é simular um sistema real de gestão de estoque, praticando conceitos de programação orientada a objetos, manipulação de banco de dados e desenvolvimento de interfaces gráficas.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+- ☕ *Java* (Linguagem de Programação)
+- 🗄️ *SQLite* (Banco de Dados Local)
+- 🔗 *JDBC* (Conector Java para Banco de Dados)
+- 🎨 *Swing* (Interface Gráfica Desktop)
+
+---
+
+## 🏗️ Estrutura do Projeto
+todos os arquivos estão organizados diretamente na raiz do projeto
+
+SistemaControleEstoque/
+├── Main.java           // Classe principal que executa o sistema
+├── Produto.java        // Classe modelo que representa os produtos
+├── ProdutoDAO.java     // Classe responsável pelas operações no banco (CRUD)
+├── Conexao.java        // Classe responsável pela conexão com o banco de dados
+├── TelaPrincipal.java  // Classe da interface gráfica
+├── estoque.db          // Arquivo do banco de dados SQLite
+├── sqlite-jdbc.jar     // Driver JDBC necessário para conexão com SQLite
+└── README.md           // Documentação do projeto
+
+---
+
+## 💻 Como Executar o Projeto
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/dewroblewski01/sistema-controle-estoque-java
+2.	Abra sua IDE de preferência (IntelliJ, Eclipse, NetBeans, VSCode…).
+3.	Importe o projeto como projeto Java existente.
+4.	Adicione o driver JDBC (sqlite-jdbc.jar) nas bibliotecas do seu projeto:
+•	Na sua IDE, vá em “Adicionar Bibliotecas” ou “Configurar Build Path”, dependendo da IDE.
+5.	Execute a classe Main.java.
+
+🔧 Funcionalidades do Sistema
+	•	✅ Cadastro de produtos
+	•	✅ Listagem de produtos
+	•	✅ Edição de produtos
+	•	✅ Exclusão de produtos
+	•	✅ Armazenamento dos dados em banco SQLite
+	•	✅ Interface gráfica intuitiva e funcional
+
+## 👥 Divisão de Tarefes
+- *Pessoa 1 – Back-End + Banco de Dados*
+  - Criação da estrutura do projeto
+  - Desenvolvimento das classes Java
+  - Implementação do CRUD (Cadastrar, Listar, Editar, Excluir)
+  - Conexão e integração com o banco de dados (SQLite via JDBC)
+  - Garantir a persistência e integridade dos dados
+
+- *Pessoa 2 – Interface Gráfica + Usabilidade*
+  - Desenvolvimento da interface gráfica (Swing)
+  - Integração da interface com os métodos CRUD
+  - Testes de navegação, usabilidade e funcionamento da interface
+  - Garantir que a interface seja clara, funcional e intuitiva
+
+- *Pessoa 3 – Documentação + Coordenação + Testes Finais*
+  - Criação do README.md e documentação do projeto
+  - Testes finais de todo o sistema (QA)
+  - Organização dos arquivos e coordenação das entregas
+  - Preparação do e-mail final com link do repositório e dados dos integrantes
+
+  ## ✅ Conclusão
+
+Este projeto foi desenvolvido com o objetivo de colocar em prática os conhecimentos de desenvolvimento em Java Desktop. Aplicamos conceitos de programação orientada a objetos, manipulação de banco de dados com SQLite e criação de interfaces gráficas usando Swing.
+O sistema permite o controle simples e eficiente de um estoque, com funcionalidades de cadastro, consulta, edição e exclusão de produtos.
+
+---
+
+## ⚠️ Observações Importantes
+
+- ✔️ Todas as linhas do código estão devidamente comentadas para facilitar o entendimento.
+- ✔️ O projeto foi organizado com os arquivos diretamente na raiz, para facilitar a execução.
+- ✔️ A aplicação é de fácil uso, com uma interface simples e intuitiva.
+
+
+
+ 
